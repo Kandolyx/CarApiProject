@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="8dp"
+    android:paddingBottom="5dp"
+    android:background="@drawable/rounded_corner"
+    android:layout_marginTop="8dp"
+    android:backgroundTint="@color/Indigo">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvBrandName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Marka Adı"
+            android:textColor="@color/SandyTan"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/tvColorName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Renk Adı"
+            android:textColor="@color/SandyTan"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/tvModelYear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Model Yılı"
+            android:textColor="@color/SandyTan"
+            android:textSize="16sp"/>
+
+    </LinearLayout>
+
+</LinearLayout>
